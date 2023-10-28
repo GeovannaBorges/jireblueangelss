@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Open+Sans:wght@700&family=Poppins&display=swap');
+
+.logo {
+
+    width:300px ;
+}
+
+.social-media-area {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    padding: 1rem;
+    
+}
+
+.social-media-area img {
+    width: 30px;
+    background-image: #164160;
+}
+
+.social-media-area-container a {
+    margin: 1rem;
+}
+
+.social-media-area-container a:active {
+    opacity: 0.7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif ;
+    transition: all 0.3s;
+}
+
+header {
+    background-color: #53B4E3;
+    box-shadow: 0px 3px 10px #464646 ;
+    
+   
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color:#164160 ;
+}
+
+/*.banner-area img {
+   
+} */
+
+
+/*.menu-icon::before {
+    content: "☰";
+    font-style:normal;
+    font-size: 30px;
+    color: #164160;
+    font-weight: 900;
+    
+    
+} */
